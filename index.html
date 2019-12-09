@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Home</title>
+<link href="CSS/Website_Project_CSS.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+<div class="topnav" id="myTopnav">
+  	<a href="index.html" class="active">Home</a>
+  	<a href="guitar.html">Guitar</a>
+  	<a href="bass.html">Bass</a>
+  	<a href="drums.html">Drums</a>
+    <a href="keyboard.html">Keyboard</a>
+  	<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    	<i class="fa fa-bars"></i>
+  	</a>
+    
+</div>
+	<div class="banner">
+		<h1>Instruments</h1>
+	</div>
+	<div class="card-list-wrapper">
+		<div class="card">
+			<img src="./Media/Guitar.png" />
+            <h1>
+            	Guitar
+            </h1>
+			<p>
+				Guitars provide the overall tune of the song. Guitars can be used for rhythm by playing chords or for 				lead which doesn't use chords as much but rather notes that can follow a chord structure.
+			</p>
+		</div>
+		<div class="card">
+			<img src="./Media/BassSide.png"/>
+            <h1>
+            	Bass
+            </h1>
+			<p>
+				The bass is used to provide rhythm to the song alongside the drums. I also helps give a fuller sound 
+                to the song as guitar by iself can sound somewhat flat.
+			</p>
+		</div>
+		<div class="card">
+			<img src="./Media/Drums.png" />
+            <h1>
+            	Drums
+            </h1>
+			<p>
+				Drums are used in bands mainly for timekeeping but they also add rhythm to the song. 
+			</p>
+		</div>
+		<div class="card">
+			<img src="./Media/Keyboard.png" />
+            <h1>
+            	Keyboard
+            </h1>
+			<p>
+				Keyboards are a sound generally heard in the background of a song accompanying the overall melody of 						 				the tune.
+			</p>
+		</div>
+	</div>
+    
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+</body>
+</html>

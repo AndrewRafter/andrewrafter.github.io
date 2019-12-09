@@ -1,0 +1,84 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Bass</title>
+<link href="CSS/Website_Project_CSS.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+<div class="topnav" id="myTopnav">
+  	<a href="index.html">Home</a>
+  	<a href="guitar.html">Guitar</a>
+  	<a href="bass.html" class="active">Bass</a>
+  	<a href="drums.html">Drums</a>
+    <a href="keyboard.html">Keyboard</a>
+  	<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    	<i class="fa fa-bars"></i>
+  	</a>
+</div>
+	<div class="card-list-wrapper">
+		<div class="card">
+			<img src="./Media/DoubleBass.jpg" />
+            <h1>
+            	Double Bass
+            </h1>
+			<p>
+				Double bass is the original acoustic version of the electric bass guitar. It has the same tuning as 
+                the bottom four strings of a guitar but just one octave lower giving it that deep sound.
+			</p>
+		</div>
+		<div class="card">
+			<img src="./Media/ElectricBass.png" />
+            <h1>
+            	Electric Bass
+            </h1>
+			<p>
+				Electric bass has the same tuning as the electric guitars bottom four strings but it is one octave 
+                lower. Bass guitar bring a heavier sound than the guitar to the song and keeps the song from feeling 
+                "flat".
+			</p>
+		</div>
+	</div>
+    <div>
+        <h2>Equipment</h2>
+    </div>
+    <div class="card-list-wrapper">
+		<div class="card">
+			<img src="./Media/GuitarAmp.jpg" />
+            <h1>
+            	Amps
+            </h1>
+			<p>
+				Amplifiers or "Amps" for short, are used to amplify the sound of electric or semi-acoustic guitars. 				
+                They are particualarly useful when playing in front of large audiences where the from an acoustic 
+                guitar won't be able to reach everyone. A different amp has to be used for bass guitars as the one 
+                designed for electric guitars hasn't got a high enough frequency and might blow.
+			</p>
+		</div>
+		<div class="card">
+			<img src="./Media/GuitarPedal.jpg" />
+            <h1>
+            	Effects Pedals
+            </h1>
+			<p>
+				Effects pedals are a great way to change the sound of the guitar and therfore the song. Different 
+                effects include changing the octave, creating distortion, tremolo, flange, reverb, delay, 
+                compression, volume control, looping.
+			</p>
+		</div>
+	</div>
+    
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+</body>
+</html>
